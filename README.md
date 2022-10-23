@@ -1,1 +1,1 @@
-# SRE_Tinkoff
+# Домашние задания SRE Tinkoff

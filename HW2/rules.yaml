@@ -1,0 +1,5 @@
+groups:
+  - name: requests
+    rules:
+    - record: mean_request_duration_rate_last_10_minutes
+      expr: avg_over_time(rate(prometheus_http_request_duration_seconds_sum{handler="/metrics"}[10m])[1d:10m])
